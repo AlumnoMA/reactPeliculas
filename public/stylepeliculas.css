@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    padding:0;
+    font-size:13px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header{
+    display: flex;
+    height: 130%;
+    width: 100%;
+    background-color: goldenrod;
+    justify-content: space-between;
+}
+
+.header-img{
+    height: 50px;
+    width: 120px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.nav-ul{
+    margin-right: 100px;
+    width: 400px;
+    height: 100px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.nav-ul a{
+    margin-right: 20px;
+    text-decoration: none; 
+}
+.films{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 250%;
+    position: relative;
+    width: 200px;
+    padding: 17px 115px 17px 115px;
+    padding-top: 7px 15px 7px 15px;
+}
+/* .presentacion{
+
+} */
